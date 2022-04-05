@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="sanpham.css">
+    <script src="https://kit.fontawesome.com/ed34e232a5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Play&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<body>
+<!----------------top header------------------>
+<header class="top-header">
+    <div class="left-topheader">
+        <p>welcome to OrganicStar fruit and food</p>
+    </div>
+    <div class="right-topheader">
+        <div class="div-loginheader">
+            <ul class="menu-nav-account">
+                <li class="nav-account1">
+            <button onclick="myFunctiontwo()"><i class="fa-solid fa-circle-user"></i> My Account</button>
+                <ul id="menu-child-account">
+                    <li class="child-account1"><a href=""><i class="fa-solid fa-circle-user"></i> My Account</a></li>
+                    <li class="child-account2"><a href="">Log In</a></li>
+                    <ul class="menu2-child-account">
+                        <li class="child-account3"><a>New customer?</a></li>
+                        <li class="child-account4"><a href="">Sign In</a></li>
+                    </ul>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="div-cartheader">
+            <uL class="menu-nav-cart">
+                <li class="nav-cart1">
+                    <button onclick="myFunction()"><i class="fa-solid fa-cart-shopping"></i> Cart</button>
+                    <ul id="menu-child-cart">
+                        <a href="sanpham.html">
+                        <li class="child-cart1" >
+                                <div class="row1-cart1">
+                                    <img class="img-main" src="http://img1.cookinglight.timeinc.net/sites/default/files/image/Oxmoor/oh3320p31-large-orange-m.jpg">
+                                </div>
+                                <div class="row2-cart1" href="">
+                                    <p>Corn Navie VietNam</p>
+                                </div>
+                            </a>
+                        </li>
+                            <a href="sanpham.html">
+                        <li class="child-cart2">
+                                <div class="row1-cart2">
+                                    <img src="../images/apple.png">
+                                </div>
+                                <div class="row2-cart2">
+                                    <p>Apple Navie VietNam</p>
+                                </div>
+                        </li>
+                            </a>
+                    </ul>
+                </li>
+            </uL>
+        </div>
+        <div class="div-logoheader">
+            <p><pre><i title="facebook" class="fa-brands fa-facebook-f"></i>    <i title="google" class="fa-brands fa-google"></i>    <i title="twitch" class="fa-brands fa-twitch"></i>    <i title="instagram" class="fa-brands fa-instagram"></i>    <i title="pinterest" class="fa-brands fa-pinterest-square"></i></pre></p>
+        </div>
+    </div>
+</header>
+
+<div class="header">
+    <div class="sub-header">
+        <ul class="ul-subheader">
+            <li id="li-header1"><a href="../form-main/index.html">Home</a></li>
+            <li id="li-header2">
+                <button  onclick="myFunctionthree()">Favorite</button>
+                <ul id="menu-child-favorite">
+                    <a href="sanpham.html">
+                    <li class="child-cart2">
+                        <div class="row1-cart2">
+                            <img src="../images/apple.png">
+                        </div>
+                        <div class="row2-cart2">
+                            <p>Apple Navie VietNam</p>
+                        </div>
+                    </li>
+                    </a>
+                </ul>
+            </li>
+            <li id="li-header3"><a href="">Category</a></li>
+            <li id="li-header3-1"><a href="">Shop</a></li>
+            <li id="li-header4-img">
+                <a href="../form-main/index.html">
+                    <img  src="../images/logo-main.png"/>
+                </a>
+            </li>
+            <li id="li-header5"><a href="">Gallery</a></li>
+            <li id="li-header5-1"><a href="">Blog</a></li>
+            <li id="li-header6"><a href="">Contact us</a></li>
+            <li id="li-header7-i"><p><i href="" class="fa-solid fa-magnifying-glass"></i></p></li>
+        </ul>
+    </div>
+</div>
+
+<!------------------banner-------------------->
+
+<div class="banner">
+    <div class="sub-banner">
+        <div>
+        <h1>ORGANIC FRUIT</h1>
+        <p>HOME / FRUIT</p>
+        </div>
+    </div>
+</div>
+
+<!---------------- body------------------>
+<section class="mainbody">
+    <div class="sub-mainbody">
+        <div class="div-left">
+            <div class="div-img">
+                <img src="../images/fruit/Cam.jpg" style="width: 100%">
+            </div>
+<!--            <div class="div-bottom">-->
+
+<!--            </div>-->
+        </div>
+        <div class="div-right">
+            <div class="div-name">
+                <h1 class="name">Orange Navie VietNam</h1>
+            </div>
+            <div class="div-undername">
+                <div class="div-wall">
+                    <pre> <i id="i1" class="fa-solid fa-star"></i> <i id="i2" class="fa-solid fa-star"></i> <i id="i3" class="fa-solid fa-star"></i> <i id="i4" class="fa-solid fa-star"></i> <i id="i5" class="fa-solid fa-star"></i></pre>
+                </div>
+            </div>
+            <div class="div-undername-second">
+                <div class="more">
+                    <div class="sub-more">
+                        <h1>Product Features</h1>
+                        <p><i class="fa-solid fa-square-check"></i> OrganicStar</p>
+                        <p><i class="fa-solid fa-square-check"></i> Fresh Fruit</p>
+                        <p><i class="fa-solid fa-square-check"></i> Fruit Farm OrganicStar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-price">
+                <h1 style="font-size: 30px">$54.99</h1>
+            </div>
+            <div class="div-description">
+                <div class="sub-description">
+                    <h1>Description</h1>
+                </div>
+                <div class="main-description">
+                    <p>Products originating from Vietnam come from Ong Quan Ba Thang farm.
+                        The farm is one of the leading farms in Vietnam and ranked in the top
+                        3 in the world in terms of planting area as well as farming methods
+                        that apply Science to agriculture.
+                    </p>
+                </div>
+            </div>
+            <div class="div-cart">
+                <div class="card">
+                    <p class="sub-more-card">QTY Weight (kg):</p>
+                    <div class="sub-card">
+                        <button id="btn-left" onclick="decrement()">-</button>
+                        <h2 id="root"><span>1</span></h2>
+                        <button id="btn-right" onclick="increment()">+</button>
+                    </div>
+                    <div class="sub-share">
+                        <pre><a>Share</a>:  <i title="facebook" class="fa-brands fa-facebook-f"></i>  <i title="google" class="fa-brands fa-google"></i>  <i title="twitch" class="fa-brands fa-twitch"></i>  <i title="instagram" class="fa-brands fa-instagram"></i>  <i title="pinterest" class="fa-brands fa-pinterest-square"></i></pre>                   </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn-cart">Add To Cart</button>
+        <button class="tick"><i class="fa-solid fa-heart"></i></button>
+    </div>
+</section>
+
+<div class="mid-theme">
+    <div>
+    <img src="//theme.hstatic.net/200000423303/1000837630/14/section_hot_banner.png?v=95">
+    </div>
+</div>
+
+<section class="top-footer">
+    <div class="div-topfooter">
+        <form method="post" action="login" class="loginform">
+            <div class="login">Product Description</div>
+            <div class="register">Important Info</div>
+            <div id="main1">
+                <h1 id="h1">Purple Cabbage:</h1>
+                <p> Scientific name is Brassica oleracea var capitata ruba is a purple
+                    cabbage plant. Originating from the Mediterranean, now widely grown around the world,
+                    suitable for temperate climates and in Vietnam, purple cabbage is grown a lot in Da Lat.
+                    • The reason purple cabbage has such color is because it is high in anthocyanin polyphenols
+                    , which have anti-inflammatory properties, protect cells from UV damage and may help reduce the
+                    risk of certain diseases cancer. • In particular, the amount of vitamin C in purple cabbage is
+                    6-8 times higher than in green cabbage, and contains more phytonutrients than green cabbage.
+                    Usage: Cabbage is usually prepared by boiling, or stir-frying, making salads, rolling meat or
+                    making salads. (For recipes refer to the delicacies section) How to store: When you buy it but
+                    haven't used it, don't wash it because it will spoil quickly when it gets wet, put it in a plastic
+                    bag and store it in the fridge (for about approx. 1 week). If you don't use it all at once, you can
+                    keep the rest of the cabbage by sprinkling it with some water, then placing it in a plastic bag and
+                    storing it in the refrigerator.</p></div>
+        </form>
+
+        <form method="post" action="register" class="registerform">
+            <div class="login">Product Description</div>
+            <div class="register">Important Info</div>
+            <div id="main2">
+                <div class="left">
+                <h1>Products Of The Farm</h1>
+                <p>Mr. Quan's Farm.</p>
+                <h1>Farm Title</h1>
+                <p>Farm meets international standards.</p>
+                <h1>More information.</h1>
+                <p>Ong Quan farm is one of the leading farms in
+                    Vietnam and the third in the world in terms
+                    of clean food standards. The farm does not use
+                    chemical fertilizers but only uses organic fertilizers
+                    with scientific tree care methods to ensure strong, safe and clean plants.</p>
+                </div>
+                <img style="width: 338px;height: 348px" src="//theme.hstatic.net/200000423303/1000837630/14/section_hot.jpg?v=95">
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="correlativebody">
+    <div class="div-top">
+        <h1>Similar Products</h1>
+    </div>
+        <div class="image-silder">
+            <div class="images-item">
+                <div class="image">
+                    <a href="sanpham.html">
+                    <img src="https://product.hstatic.net/200000423303/product/dau-han-quoc-330g_7d5744607384465fa9c6dd5aab630719_large.jpg">
+                    </a>
+                </div>
+                <p title="Korean Strawberry (hộp 0.3kg)">Korean Strawberry...</p>
+                <p>289.000 vnđ</p>
+            </div>
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/le-nam-phi_c877e891c9ec44b192e35dfc2ac57fac_large.jpg">
+                </div>
+                <p title="South African Pear (1kg)">South African Pear...</p>
+                <a>129.000 vnđ</a>
+            </div>
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/nho-mau-don-han-quoc_59bb84f4622d4fcd8b2555739928f6f0_large.jpg">
+                </div>
+                <p title="South African Grapes (0.5kg)">South African...</p>
+                <a>120.000 vnđ</a>
+            </div>
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/cam-trung-huu-co_873eabb432ba470ab7ee54d33e5886aa_large.jpg">
+                </div>
+                <p title="VietNam Envy Orange (1kg)">Orange</p>
+                <a>349.000 vnđ</a>
+            </div>
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/xoai-cat-hoa-loc-dac-biet_ddb4b688c1914466adc4c15cc5b75708_large.jpg">
+                </div>
+                <p title="Yellow Skin Acacia Mango (1kg)">Mange</p>
+                <a>65.000 vnđ</a>
+            </div>
+
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/tao-envy-organic_1bae02bb976f44e4850b4c937036bb3d_large.jpg">
+                </div>
+                <p title="VietNam Envy Apple (1kg)">Apple</p>
+                <a>65.000 vnđ</a>
+            </div>
+            </a>
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/buoi-da-xanh-huu-co_75d4bef79f2b4e19b2460997d4a0cd04_large.jpg">
+                </div>
+                <p title="Grapefruit (1kg)">Grapefruit</p>
+                <a>65.000 vnđ</a>
+            </div>
+
+            <div class="images-item">
+                <div class="image">
+                    <img src="https://product.hstatic.net/200000423303/product/dua-hau_aafb8c1fa56f457e862a081e24285c47_large.jpg">
+                </div>
+                <p title="Water Melon (1kg)">Water Melon</p>
+                <a>65.000 vnđ</a>
+            </div>
+
+        </div>
+</section>
+
+<!----------------------footer----------------------->
+<footer id="footer">
+    <div class="inner">
+        <div class="info-link">
+            <h3>Information Link</h3>
+            <nav>
+                <ul class="link-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Faq</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="contact-detail">
+            <h3>Contact Details</h3>
+            <ul class="link-list">
+                <li><a href="mailto:OrganicStar@superCar.saupeCar">OrganicStar@superCar.saupeCar</a></li>
+                <li><a>www.yoursite.com</a></li>
+                <li><address>số 8A Tôn Nhất Thất,Mỹ Đình,Nam Từ Liêm,Hà Nội</address></li>
+                <li><a href="tel:099 9999 999">099 9999 999</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <h3>Social</h3>
+            <ul class="link-list">
+                <li><i class="fab fa-facebook-f"></i> 22.543 Likes</li>
+                <li><i class="fab fa-github"></i> 128 Projects</li>
+                <li><i class="fab fa-twitter"></i> 12.860 Followers</li>
+                <li><i class="fab fa-dribbble"></i> 3312 Shots</li>
+                <li><i class="fab fa-pinterest"></i> 3331 Pins</li>
+            </ul>
+        </div>
+        <div class="about-us">
+            <div class="Map">
+                <h3>FPT Aptech Computer educatio</h3>
+                <p class="map-img"><iframe id="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3210669601112!2d106.66516922675912!3d10.786703051536417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1sen!2s!4v1647263521569!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+            </div>
+        </div>
+        <div class="about-us1">
+            <div class="Map1">
+                <h3>payment</h3>
+                <a class="img1"><img style="width: 120px;height: 80px" src="../images/visa.jpg"></a>
+                <h3>shipping unit</h3>
+                <a class="img1"><img style="width: 120px;height: 80px" src="../images/transport.jpg"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<!-- end header-->
+</body>
+<script>
+    var data=1
+    document.getElementsById("root").innerText = data;
+    function decrement(){
+        data--;
+        if(data < 0){
+            return false;
+        }else if(data > 0) {
+            document.getElementById("root").innerText = data;
+            return true;
+        }
+    }
+    function increment(){
+        data++;
+        if(data < 0 ){
+            return false;
+        } else {
+            document.getElementById("root").innerText = data;
+            return true;
+        }
+    }
+</script>
+<script>
+    $('.login').each(function (i){
+        $(this).click(function (){
+            $('.registerform').removeClass('registerform-active');
+            $('.loginform').addClass('loginform-active');
+            $('.register').css('background-color','#ffffff');
+            $('.login').css('background-color','#2efc00');
+        });
+    });
+    $('.register').each(function (i){
+        $(this).click(function (){
+            $('.registerform').addClass('registerform-active');
+            $('.loginform').removeClass('loginform-active');
+            $('.login').css('background-color', "#ffffff");
+            $('.register').css('background-color', '#2efc00');
+            $('#main2').css('display','block');
+        });
+    });
+
+</script>
+<script src="sanpham.js"></script>
+</html>

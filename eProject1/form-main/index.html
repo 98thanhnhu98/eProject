@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/ed34e232a5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Play&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="top-header">
+    <div class="left-topheader">
+        <p>Welcome to OrganicStar fruit and food</p>
+    </div>
+    <div class="right-topheader">
+        <div class="div-loginheader">
+            <ul class="menu-nav-account">
+                <li class="nav-account1">
+                    <button onclick="myFunctiontwo()"><i class="fa-solid fa-circle-user"></i> My Account</button>
+                    <ul id="menu-child-account">
+                        <li class="child-account1"><a href=""><i class="fa-solid fa-circle-user"></i> My Account</a></li>
+                        <li class="child-account2"><a href="">Log In</a></li>
+                        <ul class="menu2-child-account">
+                            <li class="child-account3"><a>New customer?</a></li>
+                            <li class="child-account4"><a href="">Sign In</a></li>
+                        </ul>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="div-cartheader">
+            <uL class="menu-nav-cart">
+                <li class="nav-cart1">
+                    <button onclick="myFunction()"><i class="fa-solid fa-cart-shopping"></i> Cart</button>
+                    <ul id="menu-child-cart">
+                        <a href="../form-SP/sanpham.html">
+                            <li class="child-cart1" >
+                                <div class="row1-cart1">
+                                    <img class="img-main" src="http://img1.cookinglight.timeinc.net/sites/default/files/image/Oxmoor/oh3320p31-large-orange-m.jpg">
+                                </div>
+                                <div class="row2-cart1" href="">
+                                    <p>Corn Navie VietNam</p>
+                                </div>
+                        </a>
+                        </li>
+                        <a href="../form-SP/sanpham.html">
+                            <li class="child-cart2">
+                                <div class="row1-cart2">
+                                    <img src="../images/apple.png">
+                                </div>
+                                <div class="row2-cart2">
+                                    <p>Apple Navie VietNam</p>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+            </uL>
+        </div>
+        <div class="div-logoheader">
+            <p><pre><i title="facebook" class="fa-brands fa-facebook-f"></i>    <i title="google" class="fa-brands fa-google"></i>    <i title="twitch" class="fa-brands fa-twitch"></i>    <i title="instagram" class="fa-brands fa-instagram"></i>    <i title="pinterest" class="fa-brands fa-pinterest-square"></i></pre></p>
+        </div>
+    </div>
+</header>
+
+<div class="header">
+    <div class="sub-header">
+        <ul class="ul-subheader">
+            <li id="li-header4-img">
+                <a href="../form-main/index.html">
+                    <img  src="../images/logo-main.png"/>
+                </a>
+            </li>
+            <li id="li-header1"><a href="../form-main/index.html">Home</a></li>
+            <li id="li-header2">
+                <button class="btn-favorite"  onclick="myFunctionthree()">Favorite</button>
+                <ul id="menu-child-favorite">
+                    <a href="../form-SP/sanpham.html">
+                        <li class="child-cart2">
+                            <div class="row1-cart2">
+                                <img src="../images/apple.png">
+                            </div>
+                            <div class="row2-cart2">
+                                <p>Apple Navie VietNam</p>
+                            </div>
+                        </li>
+                    </a>
+                </ul>
+            </li>
+            <li id="li-header3"><a href="">Category</a></li>
+            <li id="li-header3-1"><a href="">Shop</a></li>
+            <li id="li-header5"><a href="">Gallery</a></li>
+            <li id="li-header5-1"><a href="">Blog</a></li>
+            <li id="li-header6"><a href="">Contact us</a></li>
+            <li id="li-header7-i"><p><i class="fa-solid fa-magnifying-glass"></i></p></li>
+        </ul>
+    </div>
+</div>
+
+<!-- end header-->
+
+<div class="subheader">
+    <div class="mid-subheader-central">
+        <div class="silder-frame">
+            <div class="slider-images">
+                <div class="img-containter">
+                    <img alt="" src="https://www.ocsolutions.co.in/html/organic_food/images/slider/style_green.png">
+                </div>
+                <div class="img-containter">
+                    <img alt="" src="http://landing.engotheme.com/html/freshfood/demo/assets/images/home1-slideshow2.jpg">
+                </div>
+                <div class="img-containter">
+                    <img alt="" src="https://www.ocsolutions.co.in/html/organic_food/images/slider/style_green.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end subheader-->
+
+<!--    welcome    -->
+<div class="div-welcome">
+    <div class="sub-welcome">
+        <h1>Welcome</h1>
+        <p>Vivamus sem sapien, volutpat in urna ut,
+            laoreet sellicitudin lectus. Aenean est odio, blandit
+            non diam sed, pulvinar efficitur enim. Maecenas massa ex,
+            volutpat nec massa gravida, posuere volputate ipsum. Quisque
+            tristique finibus dolor ultrices ultricies.</p>
+        <a>Read more >></a>
+    </div>
+</div>
+
+<div class="sec1">
+    <div class="mid-sec1">
+        <form method="post" class="loginform">
+            <ul id="ul-mid-sec1" style="list-style-type: none">
+                <li id="sec1-li1">
+                    <h1 class="h1">Featured Products</h1>
+                    <div class="ul-p1"><p class="ip1">Fruits</p></div>
+                    <div class="ul-p2"><p class="ip2">Nuts</p></div>
+                    <div class="ul-p3"><p class="ip3">Vegess</p></div>
+                    <div class="ul-p4"><p class="ip4">Dry Food</p></div>
+                    <div class="ul-p5"><p class="ip5">Canned Food</p></div>
+                </li>
+            </ul>
+            <div class="mid-sec1-body">
+                <div class="div1-product-fruit">
+                    <div class="img1-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/cam-trung-huu-co_873eabb432ba470ab7ee54d33e5886aa_large.jpg"></a>
+                    </div>
+                    <div class="p1">
+                       <p title="Orange">Orange</p>
+                        <p style="color: #00c200">$55</p>
+                   </div>
+                </div>
+                <div class="div2-product-fruit">
+                    <div class="img2-product">
+                        <a href="../form-SP/sanpham.html"><img  src="https://product.hstatic.net/200000423303/product/dau-han-quoc-330g_7d5744607384465fa9c6dd5aab630719_large.jpg"></a>
+                    </div>
+                    <div class="p2">
+                        <p title="Strawberry">Strawberry</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div3-product-fruit">
+                    <div class="img3-product">
+                        <a href="../form-SP/sanpham.html"><img  src="https://product.hstatic.net/200000423303/product/le-nam-phi_c877e891c9ec44b192e35dfc2ac57fac_large.jpg"></a>
+                    </div>
+                    <div class="p3">
+                        <p title="Pear">Pear</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div4-product-fruit">
+                    <div class="img4-product">
+                        <a href="../form-SP/sanpham.html"><img  src="https://product.hstatic.net/200000423303/product/nho-mau-don-han-quoc_59bb84f4622d4fcd8b2555739928f6f0_large.jpg"></a>
+                    </div>
+                    <div class="p4">
+                        <p title="Grapes">Grapes</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div5-product-fruit">
+                    <div class="img5-product">
+                        <a href="../form-SP/sanpham.html"><img   src="https://product.hstatic.net/200000423303/product/tao-envy-organic_1bae02bb976f44e4850b4c937036bb3d_large.jpg"></a>
+                    </div>
+                    <div class="p5">
+                        <p title="Apple">Apple</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div6-product-fruit">
+                    <div class="img6-product">
+                        <a href="../form-SP/sanpham.html"><img   src="https://product.hstatic.net/200000423303/product/xoai-cat-hoa-loc-dac-biet_ddb4b688c1914466adc4c15cc5b75708_large.jpg"></a>
+                    </div>
+                    <div class="p6">
+                        <p title="Mango">Mango</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div7-product-fruit">
+                    <div class="img7-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/buoi-da-xanh-huu-co_75d4bef79f2b4e19b2460997d4a0cd04_large.jpg"></a>
+                    </div>
+                    <div class="p7">
+                        <p title="grapefruit">Grapefruit</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div8-product-fruit">
+                    <div class="img8-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/dua-hau_aafb8c1fa56f457e862a081e24285c47_large.jpg"></a>
+                    </div>
+                    <div class="p8">
+                        <p title="Water Melon">Water Melon</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div9-product-fruit">
+                    <div class="img9-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/thom-huu-co_e1872d52526e42be80bcad1c8127763b_grande.jpg"></a>
+                    </div>
+                    <div class="p9">
+                        <p title="Water Melon">Pineapple</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+                <div class="div10-product-fruit">
+                    <div class="img10-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/thanh-long-ruot-do_b6dbd2c6f8994db88e84fe50139745bc_large.jpg"></a>
+                    </div>
+                    <div class="p10">
+                        <p title="Water Melon">Dragon Fruit</p>
+                        <p style="color: #00c200">$55</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <form  method="post" class="registerform">
+            <ul id="ul-mid-sec2" style="list-style-type: none">
+                <li id="sec1-li2">
+                    <h1 class="h1">Featured Products</h1>
+                    <div class="ul-p1"><p class="ip1">Fruits</p></div>
+                    <div class="ul-p2"><p class="ip2">Nuts</p></div>
+                    <div class="ul-p3"><p class="ip3">Vegess</p></div>
+                    <div class="ul-p4"><p class="ip4">Dry Food</p></div>
+                    <div class="ul-p5"><p class="ip5">Canned Food</p></div>
+                </li>
+            </ul>
+            <div class="mid-sec2-body">
+                <div class="div1-product-fruit">
+                    <div class="img1-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_49BCO0hE24uwGUXc6_sqCoEiYAks5jWFUw&usqp=CAU"></a>
+                    </div>
+                    <div class="p1">
+                        <p title="Pumpkin">Pumpkin</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div2-product-fruit">
+                    <div class="img2-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://n3.sdlcdn.com/imgs/j/j/2/Nutrilicious-Chia-Seeds-250-g-SDL273895270-1-1289d.jpg"></a>
+                    </div>
+                    <div class="p2">
+                        <p title="Chia">Chia</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div3-product-fruit">
+                    <div class="img3-product">
+                        <a href="../form-SP/sanpham.html"><img src="http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/gwsAAOxy4YdTWJqj/$_3.JPG?set_id=2"></a>
+                    </div>
+                    <div class="p3">
+                        <p title="Pistachio">Pistachio</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div4-product-fruit">
+                    <div class="img4-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://n4.sdlcdn.com/imgs/j/m/t/Nature-s-Essence-Gurbandi-Almond-SDL166293273-1-350c5.jpg"></a>
+                    </div>
+                    <div class="p4">
+                        <p title="Almonds">Almonds</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div5-product-fruit">
+                    <div class="img5-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://i.ebayimg.com/images/g/ZzEAAOSw9GhYZUh8/s-l400.jpg"></a>
+                    </div>
+                    <div class="p5">
+                        <p title="Hazelnuts">Hazelnuts</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div6-product-fruit">
+                    <div class="img6-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/dau_nanh_huu_co__1__5c6fdd7e5f3e40929422b3cb0c543e6b_0a1287e6a834415998cb8943c6d63b1d_grande.jpeg"></a>
+                    </div>
+                    <div class="p6">
+                        <p title="popcorn">Soy pellets</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div7-product-fruit">
+                    <div class="img7-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/oc-cho-huu-co-smart-organic-200g_def42d9af51d4b74b09e48a73981c7d9_grande.jpeg"></a>
+                    </div>
+                    <div class="p7">
+                        <p title="popcorn">walnuts</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div8-product-fruit">
+                    <div class="img8-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/hat-dinh-duong-hon-hop-4-loai-hat-huu-co-sottolestelle-250g-1_a899ea0ab1d846c5abf00b73d2ee353c.jpeg"></a>
+                    </div>
+                    <div class="p8">
+                        <p title="popcorn">Nuts Mixed</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div9-product-fruit">
+                    <div class="img9-product">
+                        <a href="../form-SP/sanpham.html"><img style="width: 70%;margin-left: 15%" src="https://images-na.ssl-images-amazon.com/images/I/91xKFxpA2zL._AC_SL1500_.jpg"></a>
+                    </div>
+                    <div class="p9">
+                        <p title="Nut hazelnut mixed Nut chocolate">Nut hazelnut ...</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div10-product-fruit">
+                    <div class="img10-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/200000423303/product/canapa-sativa-bio-decorticati-1-web_6a991f11a242407690cd13efa4157b95.png"></a>
+                    </div>
+                    <div class="p10">
+                        <p title="Hemp seed">Hemp seed</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form  method="post" class="vegessform">
+                <ul id="ul-mid-sec3" style="list-style-type: none">
+                    <li id="sec1-li3">
+                        <h1 class="h1">Featured Products</h1>
+                        <div class="ul-p1"><p class="ip1">Fruits</p></div>
+                        <div class="ul-p2"><p class="ip2">Nuts</p></div>
+                        <div class="ul-p3"><p class="ip3">Vegess</p></div>
+                        <div class="ul-p4"><p class="ip4">Dry Food</p></div>
+                        <div class="ul-p5"><p class="ip5">Canned Food</p></div>
+                    </li>
+                </ul>
+                <div class="mid-sec3-body">
+                    <div class="div1-product-fruit">
+                        <div class="img1-product">
+                            <a href="../form-SP/sanpham.html"><img  src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Celery-each-1907_17272afa-c6bf-4c9a-880f-d26fe50dfe90_240x240.jpg?v=1637561514"></a>
+                        </div>
+                        <div class="p1">
+                            <p title="Celery Each">Celery Each</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div2-product-fruit">
+                        <div class="img2-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Broccoli-each-10064_9fcfa40f-e762-4817-b94a-eeed7b9594b5_240x240.jpg?v=1637557861"></a>
+                        </div>
+                        <div class="p2">
+                            <p title="Broccoli each">Broccoli each</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div3-product-fruit">
+                        <div class="img3-product">
+                            <a href="../form-SP/sanpham.html"><img  src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Ginger-120g-38708_e61e32d8-a9ea-431e-9f46-8caa71003c84_240x240.jpg?v=1637558437"></a>
+                        </div>
+                        <div class="p3">
+                            <p title="Ginger">Ginger</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div4-product-fruit">
+                        <div class="img4-product">
+                            <a href="../form-SP/sanpham.html"><img  src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Garlic-2-bulbs-10080_cf9c53bd-633f-441b-82d3-6ab09c74c3af_240x240.jpg?v=1637557864"></a>
+                        </div>
+                        <div class="p4">
+                            <p title="Gralic">Gralic</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div5-product-fruit">
+                        <div class="img5-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Cucumber-each-1918_235dd22e-866d-434b-a131-ee6d1bdd6a92_240x240.jpg?v=1637561516"></a>
+                        </div>
+                        <div class="p5">
+                            <p title="Cucumber Each">Cucumber Each</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div6-product-fruit">
+                        <div class="img6-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/The-Tomato-Stall-Cherry-Vine-Tomatoes-250g-25320_d2b35273-ae5e-4c94-bfe5-1a8c9109b9c3_240x240.jpg?v=1637559033"></a>
+                        </div>
+                        <div class="p6">
+                            <p title="Tomato">Tomato</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div7-product-fruit">
+                        <div class="img7-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Fresh-Flat-Leaf-Parsley-20g-1934_c2a63b01-434f-44db-bd79-de09898e9a22_240x240.jpg?v=1637561522"></a>
+                        </div>
+                        <div class="p7">
+                            <p title="Fresh Flat Leaf Parsley 20g">Fresh Flat Leaf Parsley</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div8-product-fruit">
+                        <div class="img8-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Carrots-750g-15355_14355469-e55c-4219-b699-eff21b55a364_240x240.jpg?v=1637561361"></a>
+                        </div>
+                        <div class="p8">
+                            <p title="Carrot">Carrot</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div9-product-fruit">
+                        <div class="img9-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Sweet-Potatoes-700g-38709_6e73eeb8-8f34-4e81-8e0e-49c67fa89ab2_240x240.jpg?v=1637558438"></a>
+                        </div>
+                        <div class="p9">
+                            <p title="Sweet Potatoes 700g">Sweet Potatoes</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                    <div class="div10-product-fruit">
+                        <div class="img10-product">
+                            <a href="../form-SP/sanpham.html"><img src="https://cdn.shopify.com/s/files/1/0447/7471/9645/products/Aubergine-each-24840_c395a38a-face-4101-ab3f-f1ef4e7e3f47_240x240.jpg?v=1637556803"></a>
+                        </div>
+                        <div class="p10">
+                            <p title="Hemp seed">Aubergine Each</p>
+                            <p class="money">$55</p>
+                        </div>
+                    </div>
+                </div>
+        </form>
+
+        <form  method="post" class="dryfoodform">
+            <ul id="ul-mid-sec4" style="list-style-type: none">
+                <li id="sec1-li4">
+                    <h1 class="h1">Featured Products</h1>
+                    <div class="ul-p1"><p class="ip1">Fruits</p></div>
+                    <div class="ul-p2"><p class="ip2">Nuts</p></div>
+                    <div class="ul-p3"><p class="ip3">Vegess</p></div>
+                    <div class="ul-p4"><p class="ip4">Dry Food</p></div>
+                    <div class="ul-p5"><p class="ip5">Canned Food</p></div>
+                </li>
+            </ul>
+            <div class="mid-sec4-body">
+                <div class="div1-product-fruit">
+                    <div class="img1-product">
+                        <a href="../form-SP/sanpham.html"><img  src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/1280x1280/products/47843/173625/151103__29404.1648785454.jpg?c=2"></a>
+                    </div>
+                    <div class="p1">
+                        <p title="Organic Times Full Cream Milk Powder 300g">Cream Milk Powder</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div2-product-fruit">
+                    <div class="img2-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/1280x1280/products/47694/173387/apivistyw__71037.1644974942.jpg?c=2"></a>
+                    </div>
+                    <div class="p2">
+                        <p title="Lotus Maize Meal Organic 500g">Lotus Maize Meal</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div3-product-fruit">
+                    <div class="img3-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/320w/products/47692/173384/apip6r3bb__16377.1644974617.jpg?c=2"></a>
+                    </div>
+                    <div class="p3">
+                        <p title="Lotus Maize Flour Organic 500g">Lotus Maize Flour</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div4-product-fruit">
+                    <div class="img4-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/640w/products/47150/172802/156380__04404.1644836359.jpg?c=2"></a>
+                    </div>
+                    <div class="p4">
+                        <p title="Plant Organic Ground Cinnamon 1kg">Plant Organic Ground Cinnamon</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div5-product-fruit">
+                    <div class="img5-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/1280x1280/products/47109/172766/158225__70774.1644836339.jpg?c=2"></a>
+                    </div>
+                    <div class="p5">
+                        <p title="Planet Organic Bay Leaves 5g">Planet Organic Bay</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div6-product-fruit">
+                    <div class="img6-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/640w/products/46983/172629/159721__58267.1644836277.jpg?c=2"></a>
+                    </div>
+                    <div class="p6">
+                        <p title="Planet Organic Ground Nutmeg 50gm">Planet Organic Ground Nutmeg</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div7-product-fruit">
+                    <div class="img7-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/1280x1280/products/46766/172401/157975__77274.1644836166.jpg?c=2"></a>
+                    </div>
+                    <div class="p7">
+                        <p title="Planet Organic Black Pepper Cracked 55g">Planet Organic Black Pepper Cracked</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div8-product-fruit">
+                    <div class="img8-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/1280x1280/products/46765/172399/154252__94096.1644836165.jpg?c=2"></a>
+                    </div>
+                    <div class="p8">
+                        <p title="Nutra Organics The Wholefood Pantry Organic Rice Milk Powder 300g">Nutra Organics The Wholefood..</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div9-product-fruit">
+                    <div class="img9-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/640w/products/46597/172214/158276__58323.1644836084.jpg?c=2"></a>
+                    </div>
+                    <div class="p9">
+                        <p title="Planet Organic Organic Ground Cinnamon 250g">Planet Organic Organic Ground Cinnamon</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div10-product-fruit">
+                    <div class="img10-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://cdn11.bigcommerce.com/s-hhhi/images/stencil/640w/products/46436/172031/157315__29426.1644835993.jpg?c=2"></a>
+                    </div>
+                    <div class="p10">
+                        <p title="Nutra Organics Wholefood Pantry Tapioca Flour 500g">Nutra Organics Wholefood Pantry Tapioca Flour</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <form  method="post" class="cannedfoodform">
+            <ul id="ul-mid-sec5" style="list-style-type: none">
+                <li id="sec1-li5">
+                    <h1 class="h1">Featured Products</h1>
+                    <div class="ul-p1"><p class="ip1">Fruits</p></div>
+                    <div class="ul-p2"><p class="ip2">Nuts</p></div>
+                    <div class="ul-p3"><p class="ip3">Vegess</p></div>
+                    <div class="ul-p4"><p class="ip4">Dry Food</p></div>
+                    <div class="ul-p5"><p class="ip5">Canned Food</p></div>
+                </li>
+            </ul>
+            <div class="mid-sec5-body">
+                <div class="div1-product-fruit">
+                    <div class="img1-product">
+                        <a href="../form-SP/sanpham.html"><img  src="https://product.hstatic.net/1000104489/product/bap_ngot_dong_hop_luce_3c6d495841054892a08303e06714104c_master.jpg"></a>
+                    </div>
+                    <div class="p1">
+                        <p title="Canned Organic Sweet Corn LUCA">Canned Organic Sweet Corn</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div2-product-fruit">
+                    <div class="img2-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/nuoc-cot-dua__3__ac8b8ebcf3d64a22a2651c630303d627_master.jpg"></a>
+                    </div>
+                    <div class="p2">
+                        <p title="Canned Organic Coconut Milk">Canned Organic Coconut Milk</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div3-product-fruit">
+                    <div class="img3-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/dau_do_dong_hop_luce_7585e4a258444362b19d878fac773165_master.jpg"></a>
+                    </div>
+                    <div class="p3">
+                        <p title="Canned Organic Red Beans">Canned Organic Red Beans..</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div4-product-fruit">
+                    <div class="img4-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/dau_ga_dong_hop_luce_3a1e1adfe29d49c48bf2620baa7008a2_master.jpg"></a>
+                    </div>
+                    <div class="p4">
+                        <p title="Canned Organic Chickpeas">Canned Organic Chickpeas</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div5-product-fruit">
+                    <div class="img5-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/dau_ha_lan_dong_hop_luce_69e3e4ff14b545a2872c8a4ee4e8980c_master.jpg"></a>
+                    </div>
+                    <div class="p5">
+                        <p title="Canned Organic Peas">Canned Organic Peas</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div6-product-fruit">
+                    <div class="img6-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/dau_lang_dong_hop_lucce_7310e26da42648e9bb068305f3bd43ad_master.jpg"></a>
+                    </div>
+                    <div class="p6">
+                        <p title="Canned organic lentils">Canned organic lentils</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div7-product-fruit">
+                    <div class="img7-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/dau_trang_nho_dong_hop_luce_f2c8fb8e73494b6ab16a3419c282318f_master.jpg"></a>
+                    </div>
+                    <div class="p7">
+                        <p title="Canned organic small white beans">Canned organic small white beans</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div8-product-fruit">
+                    <div class="img8-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/dau_trang_to_dong_hop_luce_0f68f9937c12461698ca1bec2edddbe5_master.jpg"></a>
+                    </div>
+                    <div class="p8">
+                        <p title="Canned organic large white beans">Canned organic large White beans</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div9-product-fruit">
+                    <div class="img9-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/hon_hop_dau_dong_hop_luce_7a8a24a5a74a4a4fb602de74799dc9fa_master.jpg"></a>
+                    </div>
+                    <div class="p9">
+                        <p title="Canned organic bean mix">Canned organic bean mix</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+                <div class="div10-product-fruit">
+                    <div class="img10-product">
+                        <a href="../form-SP/sanpham.html"><img src="https://product.hstatic.net/1000104489/product/a6c100136b12964ccf03_7b3f1c7317824d24abaa3cddfeebd96e_master.jpg"></a>
+                    </div>
+                    <div class="p10">
+                        <p title="Organic condensed milk">Organic condensed milk</p>
+                        <p class="money">$55</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="div-more">
+            <div class="sub-divmore">
+                <div><p>VIEW ALL</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<div class="banner-bottom">
+    <div class="sub-banner">
+        <div class="cow1"><i class="fa-solid fa-phone"></i></div>
+        <div class="cow2"><p class="row1">CALL FOR US NOW</p>
+        <p class="row2"></p></div>
+        <div class="cow3">
+            <h1>099 - 9999 - 999</h1></div>
+        <div class="cow4">
+            <p>Order Organic food To Fit Your Healthy Lifestyle!</p>
+        </div>
+    </div>
+    <div class="more-img">
+            <img src="http://landing.engotheme.com/html/freshfood/demo/assets/images/home3-images-banner1.png">
+    </div>
+</div>
+<!--------end body--------->
+
+<section class="correlativebody">
+    <div class="div-top">
+        <h1>Similar Products</h1>
+    </div>
+    <div class="image-silder">
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                    <img src="https://product.hstatic.net/200000423303/product/dau-han-quoc-330g_7d5744607384465fa9c6dd5aab630719_large.jpg">
+                </a>
+            </div>
+            <p title="Korean Strawberry (hộp 0.3kg)">Korean Strawberry...</p>
+            <p class="money">$55</p>
+        </div>
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                <img src="https://product.hstatic.net/200000423303/product/le-nam-phi_c877e891c9ec44b192e35dfc2ac57fac_large.jpg">
+                </a>
+            </div>
+            <p title="South African Pear (1kg)">South African Pear...</p>
+            <p class="money">$55</p>
+        </div>
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                    <img src="https://product.hstatic.net/200000423303/product/nho-mau-don-han-quoc_59bb84f4622d4fcd8b2555739928f6f0_large.jpg">
+                </a>
+            </div>
+            <p title="South African Grapes (0.5kg)">South African...</p>
+            <p class="money">$55</p>
+        </div>
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                <img src="https://product.hstatic.net/200000423303/product/cam-trung-huu-co_873eabb432ba470ab7ee54d33e5886aa_large.jpg">
+                </a>
+            </div>
+            <p title="VietNam Envy Orange (1kg)">Orange</p>
+            <p class="money">$55</p>
+        </div>
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                <img src="https://product.hstatic.net/200000423303/product/xoai-cat-hoa-loc-dac-biet_ddb4b688c1914466adc4c15cc5b75708_large.jpg">
+                </a>
+            </div>
+            <p title="Yellow Skin Acacia Mango (1kg)">Mange</p>
+            <p class="money">$55</p>
+        </div>
+
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                <img src="https://product.hstatic.net/200000423303/product/tao-envy-organic_1bae02bb976f44e4850b4c937036bb3d_large.jpg">
+                </a>
+            </div>
+            <p title="VietNam Envy Apple (1kg)">Apple</p>
+            <p class="money">$55</p>
+        </div>
+        </a>
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                <img src="https://product.hstatic.net/200000423303/product/buoi-da-xanh-huu-co_75d4bef79f2b4e19b2460997d4a0cd04_large.jpg">
+                </a>
+            </div>
+            <p title="Grapefruit (1kg)">Grapefruit</p>
+            <p class="money">$55</p>
+        </div>
+
+        <div class="images-item">
+            <div class="image">
+                <a href="../form-SP/sanpham.html">
+                <img src="https://product.hstatic.net/200000423303/product/dua-hau_aafb8c1fa56f457e862a081e24285c47_large.jpg">
+                </a>
+            </div>
+            <p title="Water Melon (1kg)">Water Melon</p>
+            <p class="money">$55</p>
+        </div>
+    </div>
+</section>
+
+<div class="top-sec-logoslider">
+    <h1>Joint Venture</h1>
+</div>
+<section class="sec-logoslider">
+    <div class="logo-slider">
+        <div class="logo-item1">
+            <img src="../images/logo-fptUpdate.png">
+        </div>
+        <div class="logo-item2">
+            <img src="../images/logo-mcdonald.png">
+        </div>
+        <div class="logo-item3">
+           <img src="../images/logo-orionupdate(1).png">
+        </div>
+        <div class="logo-item4">
+            <img src="../images/logo-pepsi(1).png">
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="inner">
+        <div class="info-link">
+            <h3>Information Link</h3>
+            <nav>
+                <ul class="link-list">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./">Blog</a></li>
+                    <li><a href="./">Pricing</a></li>
+                    <li><a href="./">About</a></li>
+                    <li><a href="./">Faq</a></li>
+                    <li><a href="./">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="contact-detail">
+            <h3>Contact Details</h3>
+            <ul class="link-list">
+                <li><a href="mailto:OrganicStar@superCar.saupeCar">OrganicStar@superCar.saupeCar</a></li>
+                <li><a href="www.yoursite.com">www.yoursite.com</a></li>
+                <li><address>số 8A Tôn Nhất Thất,Mỹ Đình,Nam Từ Liêm,Hà Nội</address></li>
+                <li><a href="tel:099 9999 999">099 9999 999</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <h3>Social</h3>
+            <ul class="link-list">
+                <li><i class="fab fa-facebook-f"></i> 22.543 Likes</li>
+                <li><i class="fab fa-github"></i> 128 Projects</li>
+                <li><i class="fab fa-twitter"></i> 12.860 Followers</li>
+                <li><i class="fab fa-dribbble"></i> 3312 Shots</li>
+                <li><i class="fab fa-pinterest"></i> 3331 Pins</li>
+            </ul>
+        </div>
+        <div class="about-us">
+            <div class="Map">
+                <h3>FPT Aptech Computer educatio</h3>
+                <p class="map-img"><iframe id="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3210669601112!2d106.66516922675912!3d10.786703051536417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2sFPT-Aptech%20Computer%20Education%20HCM!5e0!3m2!1sen!2s!4v1647263521569!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+            </div>
+        </div>
+        <div class="about-us1">
+            <div class="Map1">
+                <h3>payment</h3>
+                <a class="img1"><img style="width: 120px;height: 80px" src="../images/visa.jpg"></a>
+                <h3>shipping unit</h3>
+                <a class="img1"><img style="width: 120px;height: 80px" src="../images/transport.jpg"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    $('.ul-p1').each(function (i){
+        $(this).click(function (){
+            $('.registerform').removeClass('registerform-active');
+            $('.loginform').addClass('loginform-active');
+            $('.vegessform').removeClass('vegessform-active');
+            $('.dryfoodform').removeClass('dryfoodform-active');
+            $('.cannedfoodform').removeClass('cannedfoodform-active');
+            $('.ip1').css('color','#2efc00')
+            $('.ip2').css('color','#000000')
+            $('.ip3').css('color','#000000')
+            $('.ip4').css('color','#000000')
+            $('.ip5').css('color','#000000')
+        });
+    });
+
+    $('.ul-p2').each(function (i){
+        $(this).click(function (){
+            $('.registerform').addClass('registerform-active');
+            $('.loginform').removeClass('loginform-active');
+            $('.vegessform').removeClass('vegessform-active');
+            $('.dryfoodform').removeClass('dryfoodform-active');
+            $('.cannedfoodform').removeClass('cannedfoodform-active');
+            $('.mid-sec2-body').css('display','block');
+            $('.ip2').css('color','#2efc00')
+            $('.ip1').css('color','#000000')
+            $('.ip3').css('color','#000000')
+            $('.ip4').css('color','#000000')
+            $('.ip5').css('color','#000000')
+        });
+    });
+
+    $('.ul-p3').each(function (i){
+        $(this).click(function (){
+            $('.loginform').removeClass('registerform-active');
+            $('.registerform').removeClass('loginform-active');
+            $('.vegessform').addClass('vegessform-active');
+            $('.dryfoodform').removeClass('dryfoodform-active');
+            $('.cannedfoodform').removeClass('cannedfoodform-active');
+            $('.mid-sec3-body').css('display','block')
+            $('.ip3').css('color','#2efc00')
+            $('.ip1').css('color','#000000')
+            $('.ip2').css('color','#000000')
+            $('.ip4').css('color','#000000')
+            $('.ip5').css('color','#000000')
+        });
+    });
+
+    $('.ul-p4').each(function (i){
+        $(this).click(function (){
+            $('.loginform').removeClass('registerform-active');
+            $('.registerform').removeClass('loginform-active');
+            $('.vegessform').removeClass('vegessform-active');
+            $('.dryfoodform').addClass('dryfoodform-active');
+            $('.cannedfoodform').removeClass('cannedfoodform-active');
+            $('.mid-sec4-body').css('display','block');
+            $('.ip4').css('color','#2efc00')
+            $('.ip1').css('color','#000000')
+            $('.ip2').css('color','#000000')
+            $('.ip3').css('color','#000000')
+            $('.ip5').css('color','#000000')
+        });
+    });
+
+    $('.ul-p5').each(function (i){
+        $(this).click(function (){
+            $('.loginform').removeClass('registerform-active');
+            $('.registerform').removeClass('loginform-active');
+            $('.vegessform').removeClass('vegessform-active');
+            $('.dryfoodform').removeClass('dryfoodform-active');
+            $('.cannedfoodform').addClass('cannedfoodform-active');
+            $('.mid-sec5-body').css('display','block');
+            $('.ip5').css('color','#2efc00')
+            $('.ip1').css('color','#000000')
+            $('.ip2').css('color','#000000')
+            $('.ip3').css('color','#000000')
+            $('.ip4').css('color','#000000')
+        });
+    });
+</script>
+<script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+</body>
+<script src="index.js"></script>
+</html>
